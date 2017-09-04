@@ -1,0 +1,20 @@
+MZFattyMaker
+====
+
+- 建立 iOS/macOS 的 Universal Framework 的工具
+- 名字 ... 有點 ... 不好 www
+- `Swift script`
+
+# Usage
+
+- 須先設置 proj, 以 iOS proj 為例
+    - Target -> Build settings
+    - Architecture 增加: `i386` `x86_64` for simulator or macOS
+    - Build active architecture only = `No`
+    - Build for device/simulator (ps. 用 `generic ios device` 也可以做成 device 喔, `強`)
+    
+# ETC
+
+## Run script
+
+- 目前沒想到/找到好的

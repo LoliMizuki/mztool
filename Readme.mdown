@@ -1,0 +1,15 @@
+mztool
+====
+
+設置 Miz 常用的 tool
+
+須先將 shell path 設置
+
+ex: zshrc
+
+```shell
+
+# mztool/bin
+export PATH="$PATH:$HOME/Desktop/mztool/bin"
+
+```
