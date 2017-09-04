@@ -1,0 +1,11 @@
+framework module MZSwifts {
+  umbrella header "MZSwifts.h"
+
+  export *
+  module * { export * }
+}
+
+module MZSwifts.Swift {
+    header "MZSwifts-Swift.h"
+    requires objc
+}
