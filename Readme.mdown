@@ -3,9 +3,11 @@ mztool
 
 設置 Miz 常用的 tool
 
+# Shell Path
+
 須先將 shell path 設置
 
-ex: zshrc
+ex: .bash_profile or zshrc
 
 ```shell
 
@@ -13,3 +15,23 @@ ex: zshrc
 export PATH="$PATH:$HOME/Desktop/mztool/bin"
 
 ```
+
+# Auto 部署
+
+- Build 後自動將產品加入 bin/
+- Xcode 中新增 run script, 形式為
+
+```shell
+
+$ cp Build/Products/Debug/<產品名稱> ../../bin
+
+# or 想要換個名 :D
+
+$ cp Build/Products/Debug/<產品名稱> ../../<New Game, New Name>
+
+```
+
+# 形式
+
+- 基本上還是以 bin 為主啦
+- 偶爾夾雜 script 形式? (Swift script)

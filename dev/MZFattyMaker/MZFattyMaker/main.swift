@@ -123,9 +123,9 @@ private func _copySimulatorModules(with frameworkName: String,
 
 _checkExist()
 let frameworkName = _frameworkName()
-let newFrameworkPath = _cloneFramework(withName: frameworkName)
+let fattyFrameworkPath = _cloneFramework(withName: frameworkName)
 let fattyPath = _makeFatty(withName: frameworkName)
-_moveFatty(at: fattyPath, into: newFrameworkPath)
-_copySimulatorModules(with: frameworkName, to: newFrameworkPath)
+_moveFatty(at: fattyPath, into: fattyFrameworkPath)
+_copySimulatorModules(with: frameworkName, to: fattyFrameworkPath)
 
 print("你是一個成功的胖子 🎅")

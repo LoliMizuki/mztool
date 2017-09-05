@@ -75,6 +75,7 @@
 				DF476A561F5E7A2000D6E25A /* Sources */,
 				DF476A571F5E7A2000D6E25A /* Frameworks */,
 				DF476A581F5E7A2000D6E25A /* CopyFiles */,
+				DF6C6A721F5E7F3700FC7B11 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -117,6 +118,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF6C6A721F5E7F3700FC7B11 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp Build/Products/Debug/MZiOSIconsMaker ../../bin";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF476A561F5E7A2000D6E25A /* Sources */ = {

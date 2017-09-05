@@ -72,6 +72,7 @@
 				DF3FDAA71F59218A00AAC460 /* Sources */,
 				DF3FDAA81F59218A00AAC460 /* Frameworks */,
 				DF3FDAA91F59218A00AAC460 /* CopyFiles */,
+				DF6C6A711F5E7DA300FC7B11 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -114,6 +115,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF6C6A711F5E7DA300FC7B11 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp Build/Products/Debug/MZFattyMaker ../../bin";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DF3FDAA71F59218A00AAC460 /* Sources */ = {
